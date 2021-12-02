@@ -2,6 +2,7 @@ void main(){
 
   questionNo1();
   questionNo2();
+  questionNo4();
 }
 //Question 1 01. Write a Dart program to print 'Hello' on screen and then print your name on a separate line.
 
@@ -36,8 +37,20 @@ dynamic questionNo3 (){
   double d=23.4;
   List e=['Arifuzzaman Lovelu','Foyez uddin','XXXX'];
   List f=[1,2,3,4];
-  Map g={'2173081028':'110','name':'Arifuzzaman Lovelu':}
+  Map g={'2173081028':'110','name':'Arifuzzaman Lovelu'};
 
+
+
+}
+
+//04. Write a Dart program that takes two numbers  and displays the product of two numbers.
+
+void questionNo4(){
+
+  int a=3;
+  int b=2;
+  print('a=$a');
+  print('b=$b');
 
 
 }
