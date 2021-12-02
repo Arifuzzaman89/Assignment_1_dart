@@ -6,6 +6,7 @@ void main() {
   questionNo5();
   questionNo8();
   questionNo10();
+  questionNo7();
 }
 //Question 1 01. Write a Dart program to print 'Hello' on screen and then print your name on a separate line.
 
@@ -59,11 +60,13 @@ void questionNo5() {
   int multiply=a*b;
   var divide=a/b;
   int remainder=a%b;
+  int substract=a-b;
 
   print('addition=${addition}');
   print('multiply=${multiply}');
   print('divide=${divide}');
   print('remainder=${remainder}');
+  print('substract=${substract}');
 
 
 
@@ -110,4 +113,12 @@ void questionNo10() {
   print(b);
   print(c);
   print(d);
+}
+
+
+void questionNo7(){
+  int a=10;
+  int b=2;
+  var c=a/b;
+  print (c);
 }
