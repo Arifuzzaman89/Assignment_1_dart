@@ -67,9 +67,6 @@ void questionNo5() {
 
 
 
-
-
-
 }
 
 //06. Write a Dart program to print the area (A=πr2) and perimeter of a circle (​​C=2πr) here π=3.1416
