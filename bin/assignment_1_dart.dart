@@ -5,6 +5,7 @@ void main(){
   questionNo4();
   questionNo6();
   questionNo5();
+  questionNo8();
 
 }
 //Question 1 01. Write a Dart program to print 'Hello' on screen and then print your name on a separate line.
@@ -78,6 +79,14 @@ void questionNo6(){
 
   var c=2*3.1416*2;
   print('c=${c}');
+}
+
+//08. Write a method to display your id, your name, your email, your phone number in single line.
+
+void questionNo8(){
+
+  print('Arifuzzaman Lovelu');
+
 }
 
 
