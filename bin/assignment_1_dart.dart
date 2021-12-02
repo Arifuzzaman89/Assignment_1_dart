@@ -3,6 +3,9 @@ void main(){
   questionNo1();
   questionNo2();
   questionNo4();
+  questionNo6();
+  questionNo5();
+
 }
 //Question 1 01. Write a Dart program to print 'Hello' on screen and then print your name on a separate line.
 
@@ -45,14 +48,36 @@ dynamic questionNo3 (){
 
 //04. Write a Dart program that takes two numbers  and displays the product of two numbers.
 
-void questionNo4(){
-
-  int a=3;
-  int b=2;
+void questionNo4() {
+  int a = 3;
+  int b = 2;
   print('a=$a');
   print('b=$b');
+}
+
+//05. Write a Dart program to print the sum (addition), multiply, subtract, divide and remainder of     two numbers.
+
+void questionNo5(){
+ int  a=10;
+  int b=5;
 
 
+  print(a+b);
+  print(a*b);
+  print(a/b);
+
+}
+
+//06. Write a Dart program to print the area (A=πr2) and perimeter of a circle (​​C=2πr) here π=3.1416
+
+void questionNo6(){
+
+  var r=2;
+  var A=3.1416*2*2;
+  print('A=${A}');
+
+  var c=2*3.1416*2;
+  print('c=${c}');
 }
 
 
